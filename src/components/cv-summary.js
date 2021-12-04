@@ -52,7 +52,7 @@ class Summary extends React.Component {
             return (
                 <section className="cvSummary alignIcon">
                     <div className="sectionDescription">
-                        <h5>Education</h5>
+                        <h5>Summary</h5>
                     </div>
                     <div className="sectionContent">
                         <textarea className="summaryTextarea"   type="text" placeholder="Tell me about yourself!" onInput={autoHeight} onChange={this.updateField} value={this.state.summaryTextarea} />

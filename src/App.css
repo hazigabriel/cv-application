@@ -165,7 +165,6 @@ section:last-child {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  gap: 8px;
   text-align: left;
   flex-wrap: nowrap;
   font-size: 1em;
@@ -206,8 +205,7 @@ section:last-child {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: 0
-  
+   
  }
 .skill {
   display: flex;
