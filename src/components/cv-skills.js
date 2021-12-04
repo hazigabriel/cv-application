@@ -37,18 +37,16 @@ class Skills extends React.Component {
                         <h5>Skills</h5>
                     </div>
                     <div className="sectionContent skillsWrapper">
-                        <div>
                         {this.state.skills.map((task, key) => {
                            
                             return (
                             <div className="alignIcon skill"   key={task[0].skillId}>
                                 <div>
-                                     <p>{task[1].skillText}</p>
+                                    <p>{task[1].skillText}</p>
                                 </div>
                             </div>
                             )
                         })}
-                        </div>
                     </div>
                 </section>
             )
@@ -174,8 +172,7 @@ class Skills extends React.Component {
             return (
                 <div className="alignIcon skill"  id={task[0].skillId} key={task[0].skillId}>
                     <div>
-                        <p>{task[0].skillId + 1}.</p>
-                        <p>{task[1].skillText}</p>
+                         <p>{task[1].skillText}</p>
                     </div>
                     <FontAwesomeIcon icon={faTrash} onClick={this.deleteSkill}/>
                 </div>
